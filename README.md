@@ -5,6 +5,7 @@ Site vitrine d'une ville ou région
 Logo, charte graphique et slogan à réaliser.
 
 Le site doit contenir 4 pages : 
+
     Accueil : 
         Logo
         Slogan
