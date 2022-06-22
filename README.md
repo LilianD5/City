@@ -1,3 +1,5 @@
+-- FR --
+
 Cahier des charges :
 
 Site vitrine d'une ville ou région
@@ -43,3 +45,53 @@ Le site doit contenir 4 pages :
 Techno : HTML CSS JavaScript
 
 Deadline : 8 jours ouvrés
+
+-- EN --
+
+Specifications:
+
+Showcase website for a city or a region.
+
+Logo, graphic chart and a slogan.
+
+Must contains 4 pages.
+
+    Homepage: 
+        Logo
+        Slogan
+        A nav bar
+        Short history of the city
+        A map to locate it
+        Short text about climate
+        4 pictures to promote it
+
+    Must-see places:
+        Logo
+        Slogan
+        A nav bar
+        10 must-see places with the name and a picture
+
+    Markets:
+        Logo
+        Slogan
+        A nav bar
+        For each market :
+            Name
+            Adress
+            Opening hours and days
+           A picture
+
+    News:
+        Logo
+        Slogan
+        A nav bar
+        6 news about the place. For each one:
+            Title
+            A related picture
+            Link to the news
+            
+     
+Technologies used : HTML CSS JS
+
+Deadline : 8 working days
+
