@@ -71,6 +71,7 @@ nav.menu > ul > li > a {
     font-size: 1.2rem;
     font-family: 'Roboto', arial, sans-serif;
     text-transform: uppercase;
+    
 }
 
 nav.menu-page-1 > ul > li > a {
@@ -302,8 +303,9 @@ nav.menu-page-1 > ul > li:hover > a {
     color: rgb(33, 33, 33 );
     height: 350px;
     width: 350px;
-    background-color: rgb(253, 178, 81);
+    background-color: rgb(245, 245, 245);
     border-radius: 10px;
+    transition: all .3s ease-in-out;
 }
 
 .block > img {
@@ -322,8 +324,10 @@ nav.menu-page-1 > ul > li:hover > a {
 }
 
 .block:hover {
-    position: relative;
-    top: -10px;
+    /* position: relative; */
+    /* top: -10px; */
+    transform: scale(105%);
+    transition: all .2s ease-in-out;
 }
 
 @media screen and (max-width: 1401px) {
@@ -480,7 +484,7 @@ nav.menu-page-1 > ul > li:hover > a {
     padding-top: 5%;
 }
 
-#carte {
+#container-carte {
     margin-top: 4px;
     margin-right: 5%;
     position: relative;
@@ -500,6 +504,12 @@ nav.menu-page-1 > ul > li:hover > a {
     font-size: 1.4rem;
     text-transform: uppercase;
     color: rgb(32, 32, 32);
+    cursor: pointer;
+    z-index: 1;
+}
+
+#liencarte{
+    z-index: 2;
 }
 
 .opacity {
@@ -817,7 +827,8 @@ main > #orga > section {
     max-width: 100%;
 }
 
-.lieux p {
+.lieux > p {
+    text-align: justify;
     font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     color: rgb(75, 75, 75);
@@ -909,6 +920,7 @@ main > #orga > section {
 }
 
 .description > p {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
     padding-right: 15%;
     text-align: justify;
     font-size: 1.1rem;

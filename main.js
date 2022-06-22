@@ -13,12 +13,12 @@ const carte = document.getElementById('carte');
 const text = document.getElementById('survol');
 const opacity = document.getElementById('liencarte')
 
-carte.addEventListener('pointerenter', function(){
+opacity.addEventListener('pointerenter', function(){
     text.classList.toggle('show');
-    opacity.classList.toggle('opacity')
+    carte.classList.toggle('opacity');
 });
 
-carte.addEventListener('pointerleave', function(){
+opacity.addEventListener('pointerleave', function(){
     text.classList.toggle('show');
-    opacity.classList.toggle('opacity')
+    carte.classList.toggle('opacity')
 });
